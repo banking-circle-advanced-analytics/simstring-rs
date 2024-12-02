@@ -9,4 +9,11 @@ repository = "https://github.com/banking-circle-advanced-analytics/simstring-rs"
 license = "MIT"
 license-file = "LICENSE"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "simstring_rs"
+crate-type = ["cdylib"]
+
 [dependencies]
+pyo3 = "0.23.1"
+
