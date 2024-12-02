@@ -2,5 +2,11 @@
 name = "simstring-rs"
 version = "0.1.0"
 edition = "2021"
+authors = ["Ruben Menke <rum@bankingcircle.com>", "Richard Oberdieck <rico@bankingcircle.com>"]
+description = "Implementation of the simstring algorithm"
+readme = "README.md"
+repository = "https://github.com/banking-circle-advanced-analytics/simstring-rs"
+license = "MIT"
+license-file = "LICENSE"
 
 [dependencies]
